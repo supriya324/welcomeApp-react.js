@@ -1,0 +1,40 @@
+/* Write your CSS here */
+.welcome-container {
+  background-color: #1e293b;
+  height: 100vh;
+  padding: 7px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.heading {
+  color: #f0bb03;
+  font-family: 'Bree Serif';
+}
+.paragraph {
+  color: #ffffff;
+  font-family: 'Bree Serif';
+}
+.button {
+  background-color: #ffffff;
+  color: #1e293b;
+  border-radius: 7px;
+  border-width: 0px;
+  padding: 6px;
+}
+@media screen and (min-width: 768px) {
+  .heading {
+    font-size: 76px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .paragraph {
+    font-size: 36px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .button {
+    font-size: 18px;
+  }
+}
